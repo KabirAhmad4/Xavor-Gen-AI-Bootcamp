@@ -20,5 +20,5 @@
 ## :star2: About the Project
 
 ### :camera: Screenshots
-<div align="center"> <a href=""><img src="https://github.com/KabirAhmad4/Xavor-Gen-AI-Bootcamp/blob/main/Flow%20Daigrams/Methodology.png" alt='image' width='800'height='500' /></a> </div>
+<div align="center"> <a href=""><img src="https://github.com/KabirAhmad4/Xavor-Gen-AI-Bootcamp/blob/main/Flow%20Daigrams/Methodology.png" alt='image' width='500'height='500' /></a> </div>
 <div align="center"> <a href=""><img src="https://github.com/KabirAhmad4/Xavor-Gen-AI-Bootcamp/blob/main/Flow%20Daigrams/Project%20Flow%20Daigram.png" alt='image' width='800'/></a> </div>
