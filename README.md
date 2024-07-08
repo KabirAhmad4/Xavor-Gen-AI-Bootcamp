@@ -22,3 +22,35 @@
 ### :camera: Screenshots
 <div align="center"> <a href=""><img src="https://github.com/KabirAhmad4/Xavor-Gen-AI-Bootcamp/blob/main/Flow%20Daigrams/Methodology.png" alt='image' width='500'height='650' /></a> </div>
 <div align="center"> <a href=""><img src="https://github.com/KabirAhmad4/Xavor-Gen-AI-Bootcamp/blob/main/Flow%20Daigrams/Project%20Flow%20Daigram.png" alt='image' width='800'/></a> </div>
+
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Fetch latest commits
+      run: |
+        git log -5 --pretty=format:"%h - %s (%ci)" --abbrev-commit > latest_commits.txt
+
+    - name: Update README
+      run: |
+        sed -i '/## Latest Commits/ r latest_commits.txt' README.md
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add README.md
+        git commit -m 'Update README with latest commits'
+        git push
