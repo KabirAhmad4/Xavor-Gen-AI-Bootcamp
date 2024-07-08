@@ -1,8 +1,8 @@
 <div align='center'>
 
 <img src=https://github.com/KabirAhmad4/Xavor-Gen-AI-Bootcamp/blob/main/Slides/titlr.png
- alt="logo" width=1421 height=2203 />
- alt="logo" />
+ alt="logo"  />
+
 
 <h1>Generative AI Tasks</h1>
 <p>Mainly Focus on Generative AI project + Tasks related with Gen AI techniques</p>
