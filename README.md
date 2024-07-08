@@ -1,6 +1,6 @@
 <div align='center'>
 
-<img src=![titlr](https://github.com/KabirAhmad4/Xavor-Gen-AI-Bootcamp/assets/115023298/0075c8ed-b69b-4d59-8537-fddad877b3a0)
+<img src=https://github.com/KabirAhmad4/Xavor-Gen-AI-Bootcamp/blob/main/Slides/titlr.png
  alt="logo" width=1421 height=2203 />
 
 <h1>Generative AI Tasks</h1>
@@ -19,5 +19,5 @@
 ## :star2: About the Project
 
 ### :camera: Screenshots
-<div align="center"> <a href=""><img src="https://drive.google.com/file/d/14232oO77Om61nvLhMsexxCWBkxtjdP01/view?usp=sharing" alt='image' width='800'/></a> </div>
-<div align="center"> <a href=""><img src="https://drive.google.com/file/d/1kuQs1m6T7Du9GyXvC2QUlpqw-Im5wHqT/view?usp=sharing" alt='image' width='800'/></a> </div>
+<div align="center"> <a href=""><img src="https://github.com/KabirAhmad4/Xavor-Gen-AI-Bootcamp/blob/main/Flow%20Daigrams/Methodology.png" alt='image' width='800'/></a> </div>
+<div align="center"> <a href=""><img src="https://github.com/KabirAhmad4/Xavor-Gen-AI-Bootcamp/blob/main/Flow%20Daigrams/Project%20Flow%20Daigram.png" alt='image' width='800'/></a> </div>
